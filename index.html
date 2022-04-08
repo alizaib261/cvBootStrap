@@ -1,0 +1,157 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./jquery.min.js"></script>
+    <style>
+      
+        #about {
+          text-align: center;
+          margin: 40px;
+        }
+        #about img {
+          width: 200px;
+          border-radius: 100%;
+        }
+        #about h1 {
+          margin: 25px;
+        }
+        #education {
+          text-align: center;
+        }
+        section {
+          margin: 40px;
+        }
+        #contact {
+          text-align: center;
+        }
+        #experience h1 {
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ali Zaib</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <section id="about" class="container">
+      <div class="row">
+        <div class="col-6">
+        <img src="./profile.png">
+        </div>
+        <div class="col-6">
+          <h1 class="display-4">Ali Zaib</h1>
+          <p>
+            I’m a MERN Stack with 1 year of experience.I studied BS Computer Science from COMSATS University Islamabad, Lahore Campus. I love to execute big ideas, and I want to use my talents to solve problems and make life easier for people. I take great pride in my work and the fact that I create things that others find useful.
+          </p>
+        </div>
+      </div>
+      <br>
+      <p>
+        <strong>Skills:</strong>
+        <span class="badge badge-info">HTML</span>
+        <span class="badge badge-info">CSS</span>
+        <span class="badge badge-info">JavaScript</span>
+        <span class="badge badge-info">Node.js</span>
+        <span class="badge badge-info">React.js</span>
+        <span class="badge badge-info">MongoDB</span>
+        <span class="badge badge-info">Express.js</span>
+      </h3>
+    </section>
+
+    <section id="experience" class="container">
+      <h1>Experience</h1>
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#exp1">
+              <div class="row">
+                <h5 class="col-md-8 mb-0">Web Developer</h5>
+                <div class="col-md-4 text-md-right"><em>Apr 2021-Current</em></div>
+              </div>
+            </div>
+            <div class="card-block collapse" id="exp1">
+              <h5>Web Developer @ Microsoft</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt rerum quisquam dolorum eaque voluptas tenetur asperiores at obcaecati porro culpa reprehenderit consequatur sit neque minima, repellendus quia delectus necessitatibus.
+              </p>
+              </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-header" data-toggle="collapse" data-target="#exp2">
+              <div class="row">
+                <h5 class="col-md-8 mb-0">MERN Stack Developer</h5>
+                <div class="col-md-4 text-md-right"><em>Jan 2020-Mar 2021</em></div>
+              </div>
+            </div>
+            <div class="card-block collapse" id="exp2">
+              <h5>MERN Stack Developer @ Netsol</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus deserunt rerum quisquam dolorum eaque voluptas tenetur asperiores at obcaecati porro culpa reprehenderit consequatur sit neque minima, repellendus quia delectus necessitatibus.
+              </p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+    <section class="container" id="education">
+      <h1>Education</h1>
+      <div class="row">
+        <div class="col-6">
+          <h3>BS Computer Science</h3>
+          <h6><i>COMSATS University Islamabad, Lahore Campus.</i></h6>
+        </div>
+        <div class="col-6">
+          <h3>F.Sc (Pre-Eng)</h3>
+          <h6><i>Govt. Boys College, Burewala.</i></h6>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <h1>Contact</h1>
+      <div class="row">
+        <div class="col-sm-2">Phone</div>
+        <div class="col-sm-4">0301-1234567</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">Email</div>
+        <div class="col-sm-4"><a href="mailto:alizaib@gmail.com">alizaib@gmail.com</a></div>
+      </div>
+    </section>
+      
+    <script>
+      $(document).ready(function(){
+        alert("Hey, this is Ali Zaib, Welcome to my CV.");
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
